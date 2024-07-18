@@ -141,6 +141,9 @@
     <ClInclude Include="Savings_Account.h" />
     <ClInclude Include="Trust_Account.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Description.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
