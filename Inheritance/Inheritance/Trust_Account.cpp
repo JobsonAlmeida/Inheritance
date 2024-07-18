@@ -21,7 +21,7 @@ bool Trust_Account::withdraw(double amount)
 		if (count_deposits <= 3)
 		{
 			count_deposits++;
-			return Savings_Account::deposit(amount);
+			return Savings_Account::withdraw(amount);
 		}
 		else
 		{
